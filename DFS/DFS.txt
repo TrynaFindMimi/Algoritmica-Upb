@@ -1,0 +1,17 @@
+La Búsqueda en Profundidad (DFS, por sus siglas en inglés Depth-First Search) es un algoritmo de búsqueda utilizado para recorrer o buscar en un grafo o árbol de manera sistemática. Este algoritmo comienza en un nodo raíz y explora tanto como sea posible a lo largo de cada rama antes de retroceder.
+
+La DFS sigue una estrategia de recorrido en profundidad, lo que significa que explora tanto como sea posible a lo largo de cada rama antes de retroceder. Esto se logra utilizando una pila (o recursión en el caso de implementaciones recursivas) para realizar un seguimiento de los nodos que aún no se han visitado.
+
+Durante la ejecución de la DFS, cada nodo se marca como visitado para evitar ciclos infinitos y para garantizar que todos los nodos se visiten exactamente una vez. Esto se puede hacer utilizando un arreglo o una estructura de datos similar para realizar un seguimiento de los nodos visitados.
+
+La DFS se puede utilizar para varios propósitos, incluyendo:
+- Recorrer un grafo o árbol para visitar todos los nodos.
+- Buscar un camino desde un nodo inicial hasta un nodo objetivo.
+- Determinar la conectividad entre nodos en un grafo.
+- Detectar ciclos en un grafo.
+
+La implementación de la DFS puede variar dependiendo del tipo de datos utilizado para representar el grafo o árbol, así como de la estrategia de almacenamiento de nodos no visitados. Sin embargo, la idea básica sigue siendo la misma: explorar en profundidad y marcar los nodos visitados.
+
+Es importante tener en cuenta que la DFS no garantiza encontrar la solución óptima en todos los casos. Por ejemplo, si se utiliza para buscar un camino desde un nodo inicial hasta un nodo objetivo, puede encontrar un camino, pero no necesariamente el camino más corto.
+
+En resumen, la Búsqueda en Profundidad (DFS) es un algoritmo versátil utilizado para recorrer o buscar en grafos y árboles de manera sistemática, explorando en profundidad a lo largo de cada rama antes de retroceder. Se utiliza en una variedad de aplicaciones, como búsqueda de caminos, determinación de conectividad y detección de ciclos, y su implementación puede adaptarse según las necesidades específicas del problema.
