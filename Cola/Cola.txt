@@ -1,0 +1,10 @@
+Claro, aquí tienes un resumen del código en palabras:
+
+El código implementa una cola (estructura de datos FIFO) en C++. La cola puede contener números enteros y proporciona las siguientes operaciones:
+
+- **enqueue**: Agrega un elemento al final de la cola.
+- **dequeue**: Elimina el primer elemento de la cola.
+- **front**: Obtiene el primer elemento de la cola sin eliminarlo.
+- **isEmpty**: Verifica si la cola está vacía.
+
+Estas operaciones se definen dentro de una clase llamada `Cola`. La cola se implementa internamente utilizando la clase `queue` de la biblioteca estándar de C++. El programa principal demuestra cómo usar estas operaciones, agregando elementos a la cola, eliminando elementos de ella, obteniendo el primer elemento y verificando si la cola está vacía.

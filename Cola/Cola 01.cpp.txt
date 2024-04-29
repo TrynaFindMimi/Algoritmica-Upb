@@ -1,0 +1,50 @@
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+class Cola {
+private:
+    queue<int> elementos;
+
+public:
+    void enqueue(int elemento) {
+        elementos.push(elemento);
+    }
+
+    void dequeue() {
+        if (!isEmpty()) {
+            elementos.pop();
+        } else {
+            cout << "La cola esta vacia, no se puede realizar dequeue." << endl;
+        }
+    }
+
+    int front() {
+        if (!isEmpty()) {
+            return elementos.front();
+        } else {
+            cout << "La cola esta vacia." << endl;
+            return -1;
+        }
+    }
+
+    bool isEmpty() {
+        return elementos.empty();
+    }
+};
+
+int main() {
+    Cola cola;
+    cola.enqueue(10);
+    cola.enqueue(20);
+    cola.enqueue(30);
+
+    cout << "Front de la cola: " << cola.front() << endl;
+    cola.dequeue();
+    cout << "Front despues de dequeue: " << cola.front() << endl;
+
+    cout << "La cola esta vacia? " << (cola.isEmpty() ? "Si" : "No") << endl;
+
+    return 0;
+}
