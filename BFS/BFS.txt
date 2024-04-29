@@ -1,0 +1,9 @@
+La Búsqueda en Amplitud (BFS, por sus siglas en inglés Breadth-First Search) es un algoritmo de búsqueda utilizado para recorrer o buscar en un grafo o árbol de manera sistemática. A diferencia de la Búsqueda en Profundidad (DFS), que explora profundamente a lo largo de cada rama, la BFS sigue una estrategia de recorrido en anchura, explorando todos los nodos de un nivel antes de avanzar al siguiente nivel.
+
+El algoritmo BFS comienza en un nodo raíz y explora todos los nodos vecinos en el mismo nivel antes de pasar al siguiente nivel. Utiliza una estructura de datos conocida como cola para realizar un seguimiento de los nodos que se deben explorar. Durante la ejecución de la BFS, cada nodo se marca como visitado para evitar ciclos infinitos y garantizar que todos los nodos se visiten exactamente una vez.
+
+La BFS se puede utilizar para varios propósitos, incluyendo la búsqueda de caminos más cortos, la determinación de la conectividad entre nodos en un grafo y la búsqueda de árboles en anchura. Es particularmente útil cuando se necesita encontrar la ruta más corta entre dos nodos en un grafo no ponderado, ya que garantiza que la primera ruta encontrada sea la más corta.
+
+La implementación de la BFS suele ser más directa que la DFS y se puede realizar de manera iterativa utilizando una cola. El algoritmo BFS es óptimo para la búsqueda en anchura, ya que garantiza que el primer camino encontrado entre dos nodos sea el más corto posible. Sin embargo, puede requerir más memoria que la DFS, especialmente en grafos con muchos niveles.
+
+En resumen, la Búsqueda en Amplitud (BFS) es un algoritmo de búsqueda que explora todos los nodos de un nivel antes de pasar al siguiente nivel. Se utiliza para varios propósitos, incluyendo la búsqueda de caminos más cortos y la determinación de la conectividad entre nodos, y su implementación suele ser más directa que la DFS.
